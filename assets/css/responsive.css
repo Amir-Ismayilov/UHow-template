@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px) {
+    .desktop_none {
+        display: none !important;
+    }
+
+    .mobile_visible {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article_section,
+    .frequently_section,
+    .find_section {
+        padding: 90px 0;
+    }
+
+    .start_section {
+        margin: 0;
+    }
+
+    .start_section .content {
+        width: 90%;
+    }
+
+    .frequently_section .content {
+        flex-wrap: wrap;
+    }
+
+    .left_side {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .left_side,
+    .right_side {
+        flex: 1 1 100% !important;
+    }
+
+    .question_wrapper {
+        width: 100%;
+        text-align: center;
+    }
+}
